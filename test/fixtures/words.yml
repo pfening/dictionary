@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  word_a: MyString
+  word_b: MyString
+  know: false
+  user_id: 1
+
+two:
+  word_a: MyString
+  word_b: MyString
+  know: false
+  user_id: 1

@@ -1,0 +1,23 @@
+<table class="table table-striped">
+<tr><%= @ask.titleize %></tr> 
+
+<% @words.each do |word| %>
+<tr>
+<%= word.word_b.titleize %>
+</tr>
+<% end %>
+</table>
+
+<%= link_to 'Back', words_path, class: "btn btn-default" %>
+
+<%= form_for(@ask) do |f| %>
+
+  <div class="field">
+    <%= f.titleize %>
+
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
